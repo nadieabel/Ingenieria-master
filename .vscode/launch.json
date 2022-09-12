@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "XDebug - Docker",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+            ,
+            "pathMappings": {
+                "/app": "${workspaceFolder}/"
+            },
+        },
+        {
+            "name": "XDebug - Local",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+              
+            
+        }
+    ]
+}
